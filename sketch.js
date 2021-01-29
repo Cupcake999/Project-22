@@ -12,16 +12,12 @@ var music;
 function preload()
 {
    //preload the images here
-   fairyImage = loadImage("images//fairy1.png","images");
-   bdgImg = loadImage("images//starnight.png");
 }
 
 function setup() {
   createCanvas(800, 750);
 
-  bdg = createSprite(400,375,10,100);
-  bdg.addImage("backgroundImage",bdgImg);
-  
+ 
 
 engine = Engine.create();
 world = engine.world;
